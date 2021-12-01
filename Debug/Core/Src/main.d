@@ -33,7 +33,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
- ../Core/Inc/ST7735.h ../Core/Inc/fonts.h ../Core/Inc/GFX_FUNCTIONS.h
+ ../Core/Inc/ST7735.h ../Core/Inc/fonts.h ../Core/Inc/GFX_FUNCTIONS.h \
+ ../Runtime/MCRuntime_V1.h ../Adaptors/adaptor.h
 
 ../Core/Inc/main.h:
 
@@ -110,3 +111,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/fonts.h:
 
 ../Core/Inc/GFX_FUNCTIONS.h:
+
+../Runtime/MCRuntime_V1.h:
+
+../Adaptors/adaptor.h:
