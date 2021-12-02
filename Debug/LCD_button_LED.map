@@ -12,10 +12,6 @@ D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_servi
                               Adaptors/adaptor.o (Runtime_CommDataService_NewData_Received)
 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
                               D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o) (get_Modbus_Buf_Holding_Registers_40001)
-D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
-                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o) (create_fb_cycle)
-D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
-                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o) (create_fb_outputpin)
 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
                               D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o) (Parser)
 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
@@ -24,10 +20,30 @@ D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
                               D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o) (write_flash_data)
 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
                               D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (addWatch)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_wmhr_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_number_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_rmhr_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_and_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_nand_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_nor_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_not_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_or_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_xor_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_cycle_parser)
 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
                               D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_inputpin_parser)
-D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
-                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_modbus_slave_parser)
+D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                              D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o) (fb_output_pin_parser)
 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-errno.o)
                               Core/Src/syscalls.o (__errno)
 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-exit.o)
@@ -4674,44 +4690,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
  .debug_macro   0x0000000000000000       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
  .debug_macro   0x0000000000000000       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
  .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
  .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
  .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
@@ -4801,6 +4779,200 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
  .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
  .debug_macro   0x0000000000000000       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000000000       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000000000       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
  .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
  .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
  .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
@@ -4820,27 +4992,25 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
  .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
  .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_macro   0x0000000000000000       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .group         0x0000000000000000        0xc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .text          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .data          0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .bss           0x0000000000000000        0x0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000       0x22 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000       0x8e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000       0x51 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000      0x103 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000       0x6a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000      0x1df D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_macro   0x0000000000000000       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
  .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-errno.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-errno.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-errno.o)
@@ -4969,7 +5139,7 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000008000000                g_pfnVectors
                 0x00000000080001f8                . = ALIGN (0x4)
 
-.text           0x00000000080001f8     0x7608
+.text           0x00000000080001f8     0x82ac
                 0x00000000080001f8                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080001f8       0x40 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
@@ -5532,224 +5702,291 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x00000000080065f0       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
                 0x00000000080065f0                Record_To_Modbus_GPD
  .text.create_test_circuit
-                0x0000000008006618       0x58 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+                0x0000000008006618        0xe D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
                 0x0000000008006618                create_test_circuit
  .text.init_uniqueid
-                0x0000000008006670       0x66 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
-                0x0000000008006670                init_uniqueid
+                0x0000000008006626       0x66 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+                0x0000000008006626                init_uniqueid
  .text.Channel_Mapping
-                0x00000000080066d6       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
-                0x00000000080066d6                Channel_Mapping
+                0x000000000800668c       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+                0x000000000800668c                Channel_Mapping
  .text.Runtime_CommDataService_NewData_Received
-                0x00000000080066f6       0x56 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
-                0x00000000080066f6                Runtime_CommDataService_NewData_Received
+                0x00000000080066ac       0x56 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+                0x00000000080066ac                Runtime_CommDataService_NewData_Received
  .text.Runtime_CommDataService_Process_DataBuffer
-                0x000000000800674c       0x52 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
-                0x000000000800674c                Runtime_CommDataService_Process_DataBuffer
- *fill*         0x000000000800679e        0x2 
+                0x0000000008006702       0x52 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+                0x0000000008006702                Runtime_CommDataService_Process_DataBuffer
  .text.get_Modbus_Buf_Holding_Registers_40001
-                0x00000000080067a0       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x00000000080067a0                get_Modbus_Buf_Holding_Registers_40001
+                0x0000000008006754       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x0000000008006754                get_Modbus_Buf_Holding_Registers_40001
  .text.get_Modbus_Buf_Input_Registers_30001
-                0x00000000080067b4       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x00000000080067b4                get_Modbus_Buf_Input_Registers_30001
+                0x0000000008006768       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x0000000008006768                get_Modbus_Buf_Input_Registers_30001
  .text.get_MODBUS_SLAVE_ADDR
-                0x00000000080067c8       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x00000000080067c8                get_MODBUS_SLAVE_ADDR
+                0x000000000800677c       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x000000000800677c                get_MODBUS_SLAVE_ADDR
  .text.get_low_byte
-                0x00000000080067dc       0x1a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x00000000080067dc                get_low_byte
+                0x0000000008006790       0x1a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x0000000008006790                get_low_byte
  .text.get_hi_byte
-                0x00000000080067f6       0x1e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x00000000080067f6                get_hi_byte
+                0x00000000080067aa       0x1e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x00000000080067aa                get_hi_byte
  .text.modbus_byte2word
-                0x0000000008006814       0x2a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x0000000008006814                modbus_byte2word
- *fill*         0x000000000800683e        0x2 
+                0x00000000080067c8       0x2a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x00000000080067c8                modbus_byte2word
+ *fill*         0x00000000080067f2        0x2 
  .text.modbus_slave_prep_resp_data
-                0x0000000008006840      0x338 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x0000000008006840                modbus_slave_prep_resp_data
+                0x00000000080067f4      0x338 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x00000000080067f4                modbus_slave_prep_resp_data
  .text.modbus_slave_tx
-                0x0000000008006b78       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x0000000008006b78                modbus_slave_tx
+                0x0000000008006b2c       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x0000000008006b2c                modbus_slave_tx
  .text.modbus_slave_rx
-                0x0000000008006b98      0x17c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x0000000008006b98                modbus_slave_rx
- .text.CRC16    0x0000000008006d14       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x0000000008006d14                CRC16
- .text.fb_cycle_parser
-                0x0000000008006d68       0x40 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
-                0x0000000008006d68                fb_cycle_parser
- .text.fb_cycle
-                0x0000000008006da8       0xa4 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
-                0x0000000008006da8                fb_cycle
- .text.create_fb_cycle
-                0x0000000008006e4c       0x60 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
-                0x0000000008006e4c                create_fb_cycle
- .text.fb_output_pin_parser
-                0x0000000008006eac       0x24 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
-                0x0000000008006eac                fb_output_pin_parser
- .text.fb_outputpin
-                0x0000000008006ed0       0x96 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
-                0x0000000008006ed0                fb_outputpin
- *fill*         0x0000000008006f66        0x2 
- .text.create_fb_outputpin
-                0x0000000008006f68       0x60 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
-                0x0000000008006f68                create_fb_outputpin
+                0x0000000008006b4c      0x17c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x0000000008006b4c                modbus_slave_rx
+ .text.CRC16    0x0000000008006cc8       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x0000000008006cc8                CRC16
  .text.parser_create_connection
-                0x0000000008006fc8       0x26 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
-                0x0000000008006fc8                parser_create_connection
+                0x0000000008006d1c       0x26 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x0000000008006d1c                parser_create_connection
  .text.parser_addwatch
-                0x0000000008006fee       0x1c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
-                0x0000000008006fee                parser_addwatch
+                0x0000000008006d42       0x1c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x0000000008006d42                parser_addwatch
  .text.parser_removewatch
-                0x000000000800700a       0x1c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
-                0x000000000800700a                parser_removewatch
+                0x0000000008006d5e       0x1c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x0000000008006d5e                parser_removewatch
  .text.parser_monitor
-                0x0000000008007026       0x16 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
-                0x0000000008007026                parser_monitor
- .text.Parser   0x000000000800703c       0xe8 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
-                0x000000000800703c                Parser
+                0x0000000008006d7a       0x16 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x0000000008006d7a                parser_monitor
+ .text.Parser   0x0000000008006d90       0xe8 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x0000000008006d90                Parser
  .text.get_deployment_ch
-                0x0000000008007124       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
-                0x0000000008007124                get_deployment_ch
+                0x0000000008006e78       0x14 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+                0x0000000008006e78                get_deployment_ch
  .text.deployment_data_validity_check
-                0x0000000008007138       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
-                0x0000000008007138                deployment_data_validity_check
+                0x0000000008006e8c       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+                0x0000000008006e8c                deployment_data_validity_check
  .text.init_deployment_ch
-                0x0000000008007168       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
-                0x0000000008007168                init_deployment_ch
+                0x0000000008006ebc       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+                0x0000000008006ebc                init_deployment_ch
  .text.check_for_available_memory
-                0x0000000008007190       0x3e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- *fill*         0x00000000080071ce        0x2 
+                0x0000000008006ee4       0x3e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ *fill*         0x0000000008006f22        0x2 
  .text.write_flash_block
-                0x00000000080071d0       0x58 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+                0x0000000008006f24       0x58 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
  .text.get_current_address
-                0x0000000008007228       0x74 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+                0x0000000008006f7c       0x74 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
  .text.write_flash_data
-                0x000000000800729c       0x68 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
-                0x000000000800729c                write_flash_data
+                0x0000000008006ff0       0x68 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+                0x0000000008006ff0                write_flash_data
  .text.get_flash_data
-                0x0000000008007304       0x2c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
-                0x0000000008007304                get_flash_data
+                0x0000000008007058       0x2c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+                0x0000000008007058                get_flash_data
  .text.addWatch
-                0x0000000008007330       0x3c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
-                0x0000000008007330                addWatch
+                0x0000000008007084       0x3c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+                0x0000000008007084                addWatch
  .text.removeWatch
-                0x000000000800736c       0x7c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
-                0x000000000800736c                removeWatch
- .text.monitor  0x00000000080073e8       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
-                0x00000000080073e8                monitor
+                0x00000000080070c0       0x7c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+                0x00000000080070c0                removeWatch
+ .text.monitor  0x000000000800713c       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+                0x000000000800713c                monitor
+ .text.fb_wmhr_parser
+                0x00000000080071bc       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+                0x00000000080071bc                fb_wmhr_parser
+ .text.fb_wmhr  0x00000000080071ee      0x138 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+                0x00000000080071ee                fb_wmhr
+ *fill*         0x0000000008007326        0x2 
+ .text.create_fb_wmhr
+                0x0000000008007328       0x8c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+                0x0000000008007328                create_fb_wmhr
+ .text.fb_number_parser
+                0x00000000080073b4       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+                0x00000000080073b4                fb_number_parser
+ .text.fb_number
+                0x00000000080073e4       0x16 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+                0x00000000080073e4                fb_number
+ *fill*         0x00000000080073fa        0x2 
+ .text.create_fb_number
+                0x00000000080073fc       0x50 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+                0x00000000080073fc                create_fb_number
+ .text.fb_rmhr_parser
+                0x000000000800744c       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+                0x000000000800744c                fb_rmhr_parser
+ .text.fb_rmhr  0x000000000800747e       0x90 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+                0x000000000800747e                fb_rmhr
+ *fill*         0x000000000800750e        0x2 
+ .text.create_fb_rmhr
+                0x0000000008007510       0x74 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+                0x0000000008007510                create_fb_rmhr
+ .text.fb_and_parser
+                0x0000000008007584       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+                0x0000000008007584                fb_and_parser
+ .text.fb_and   0x00000000080075ac      0x10c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+                0x00000000080075ac                fb_and
+ .text.create_fb_and
+                0x00000000080076b8       0x90 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+                0x00000000080076b8                create_fb_and
+ .text.fb_nand_parser
+                0x0000000008007748       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+                0x0000000008007748                fb_nand_parser
+ .text.fb_nand  0x0000000008007770      0x118 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+                0x0000000008007770                fb_nand
+ .text.create_fb_nand
+                0x0000000008007888       0x90 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+                0x0000000008007888                create_fb_nand
+ .text.fb_nor_parser
+                0x0000000008007918       0x18 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+                0x0000000008007918                fb_nor_parser
+ .text.fb_nor   0x0000000008007930       0xcc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+                0x0000000008007930                fb_nor
+ .text.create_fb_nor
+                0x00000000080079fc       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+                0x00000000080079fc                create_fb_nor
+ .text.fb_not_parser
+                0x0000000008007a7c       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+                0x0000000008007a7c                fb_not_parser
+ .text.fb_not   0x0000000008007aae       0x9e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+                0x0000000008007aae                fb_not
+ .text.create_fb_not
+                0x0000000008007b4c       0x74 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+                0x0000000008007b4c                create_fb_not
+ .text.fb_or_parser
+                0x0000000008007bc0       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+                0x0000000008007bc0                fb_or_parser
+ .text.fb_or    0x0000000008007be8      0x10c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+                0x0000000008007be8                fb_or
+ .text.create_fb_or
+                0x0000000008007cf4       0x90 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+                0x0000000008007cf4                create_fb_or
+ .text.fb_xor_parser
+                0x0000000008007d84       0x18 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+                0x0000000008007d84                fb_xor_parser
+ .text.fb_xor   0x0000000008007d9c       0x9c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+                0x0000000008007d9c                fb_xor
+ .text.create_fb_xor
+                0x0000000008007e38       0x74 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+                0x0000000008007e38                create_fb_xor
+ .text.fb_cycle_parser
+                0x0000000008007eac       0x90 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                0x0000000008007eac                fb_cycle_parser
+ .text.fb_cycle
+                0x0000000008007f3c      0x162 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                0x0000000008007f3c                fb_cycle
+ *fill*         0x000000000800809e        0x2 
+ .text.create_fb_cycle
+                0x00000000080080a0       0xb8 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                0x00000000080080a0                create_fb_cycle
  .text.fb_inputpin_parser
-                0x0000000008007468       0x2a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
-                0x0000000008007468                fb_inputpin_parser
+                0x0000000008008158       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+                0x0000000008008158                fb_inputpin_parser
  .text.fb_inputpin
-                0x0000000008007492       0x56 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
-                0x0000000008007492                fb_inputpin
+                0x000000000800818a       0x86 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+                0x000000000800818a                fb_inputpin
  .text.create_fb_inputpin
-                0x00000000080074e8       0x64 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
-                0x00000000080074e8                create_fb_inputpin
- .text.fb_modbus_slave_parser
-                0x000000000800754c       0x26 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
-                0x000000000800754c                fb_modbus_slave_parser
- .text.fb_modbus_slave
-                0x0000000008007572      0x162 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
-                0x0000000008007572                fb_modbus_slave
- .text.create_fb_modbus_slave
-                0x00000000080076d4       0xa0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
-                0x00000000080076d4                create_fb_modbus_slave
+                0x0000000008008210       0x74 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+                0x0000000008008210                create_fb_inputpin
+ .text.fb_output_pin_parser
+                0x0000000008008284       0x3c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                0x0000000008008284                fb_output_pin_parser
+ .text.fb_outputpin
+                0x00000000080082c0       0xc6 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                0x00000000080082c0                fb_outputpin
+ *fill*         0x0000000008008386        0x2 
+ .text.create_fb_outputpin
+                0x0000000008008388       0x90 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                0x0000000008008388                create_fb_outputpin
  .text.__libc_init_array
-                0x0000000008007774       0x48 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
-                0x0000000008007774                __libc_init_array
- .text.memcpy   0x00000000080077bc       0x1c c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                0x00000000080077bc                memcpy
- .text.memset   0x00000000080077d8       0x10 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
-                0x00000000080077d8                memset
+                0x0000000008008418       0x48 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                0x0000000008008418                __libc_init_array
+ .text.memcpy   0x0000000008008460       0x1c c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008008460                memcpy
+ .text.memset   0x000000000800847c       0x10 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                0x000000000800847c                memset
  *(.glue_7)
- .glue_7        0x00000000080077e8        0x0 linker stubs
+ .glue_7        0x000000000800848c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080077e8        0x0 linker stubs
+ .glue_7t       0x000000000800848c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000000080077e8        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .eh_frame      0x000000000800848c        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  *(.init)
- .init          0x00000000080077e8        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x00000000080077e8                _init
- .init          0x00000000080077ec        0x8 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .init          0x000000000800848c        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x000000000800848c                _init
+ .init          0x0000000008008490        0x8 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x00000000080077f4        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x00000000080077f4                _fini
- .fini          0x00000000080077f8        0x8 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtn.o
-                0x0000000008007800                . = ALIGN (0x4)
-                0x0000000008007800                _etext = .
+ .fini          0x0000000008008498        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x0000000008008498                _fini
+ .fini          0x000000000800849c        0x8 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00000000080084a4                . = ALIGN (0x4)
+                0x00000000080084a4                _etext = .
 
-.vfp11_veneer   0x0000000008007800        0x0
- .vfp11_veneer  0x0000000008007800        0x0 linker stubs
+.vfp11_veneer   0x00000000080084a4        0x0
+ .vfp11_veneer  0x00000000080084a4        0x0 linker stubs
 
-.v4_bx          0x0000000008007800        0x0
- .v4_bx         0x0000000008007800        0x0 linker stubs
+.v4_bx          0x00000000080084a4        0x0
+ .v4_bx         0x00000000080084a4        0x0 linker stubs
 
-.iplt           0x0000000008007800        0x0
- .iplt          0x0000000008007800        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x00000000080084a4        0x0
+ .iplt          0x00000000080084a4        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.rodata         0x0000000008007800      0x220
-                0x0000000008007800                . = ALIGN (0x4)
+.rodata         0x00000000080084a4      0x220
+                0x00000000080084a4                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0000000008007800       0x10 Core/Src/system_stm32f7xx.o
-                0x0000000008007800                AHBPrescTable
+                0x00000000080084a4       0x10 Core/Src/system_stm32f7xx.o
+                0x00000000080084a4                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008007810        0x8 Core/Src/system_stm32f7xx.o
-                0x0000000008007810                APBPrescTable
+                0x00000000080084b4        0x8 Core/Src/system_stm32f7xx.o
+                0x00000000080084b4                APBPrescTable
  .rodata.flagBitshiftOffset.9400
-                0x0000000008007818        0x8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o
+                0x00000000080084bc        0x8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o
  .rodata.wCRCTable.5655
-                0x0000000008007820      0x200 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
-                0x0000000008007a20                . = ALIGN (0x4)
+                0x00000000080084c4      0x200 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+                0x00000000080086c4                . = ALIGN (0x4)
 
-.ARM.extab      0x0000000008007a20        0x0
-                0x0000000008007a20                . = ALIGN (0x4)
+.ARM.extab      0x00000000080086c4        0x0
+                0x00000000080086c4                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008007a20                . = ALIGN (0x4)
+                0x00000000080086c4                . = ALIGN (0x4)
 
-.ARM            0x0000000008007a20        0x8
-                0x0000000008007a20                . = ALIGN (0x4)
-                0x0000000008007a20                __exidx_start = .
+.ARM            0x00000000080086c4        0x8
+                0x00000000080086c4                . = ALIGN (0x4)
+                0x00000000080086c4                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0000000008007a20        0x8 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x0000000008007a28                __exidx_end = .
-                0x0000000008007a28                . = ALIGN (0x4)
+ .ARM.exidx     0x00000000080086c4        0x8 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x00000000080086cc                __exidx_end = .
+                0x00000000080086cc                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008007a28        0x0
- .rel.iplt      0x0000000008007a28        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rel.dyn        0x00000000080086cc        0x0
+ .rel.iplt      0x00000000080086cc        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.preinit_array  0x0000000008007a28        0x0
-                0x0000000008007a28                . = ALIGN (0x4)
-                0x0000000008007a28                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000000080086cc        0x0
+                0x00000000080086cc                . = ALIGN (0x4)
+                0x00000000080086cc                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008007a28                PROVIDE (__preinit_array_end = .)
-                0x0000000008007a28                . = ALIGN (0x4)
+                0x00000000080086cc                PROVIDE (__preinit_array_end = .)
+                0x00000000080086cc                . = ALIGN (0x4)
 
-.init_array     0x0000000008007a28        0x4
-                0x0000000008007a28                . = ALIGN (0x4)
-                0x0000000008007a28                PROVIDE (__init_array_start = .)
+.init_array     0x00000000080086cc        0x4
+                0x00000000080086cc                . = ALIGN (0x4)
+                0x00000000080086cc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008007a28        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x0000000008007a2c                PROVIDE (__init_array_end = .)
-                0x0000000008007a2c                . = ALIGN (0x4)
+ .init_array    0x00000000080086cc        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x00000000080086d0                PROVIDE (__init_array_end = .)
+                0x00000000080086d0                . = ALIGN (0x4)
 
-.fini_array     0x0000000008007a2c        0x4
-                0x0000000008007a2c                . = ALIGN (0x4)
+.fini_array     0x00000000080086d0        0x4
+                0x00000000080086d0                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008007a2c        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x00000000080086d0        0x4 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008007a30                . = ALIGN (0x4)
-                0x0000000008007a30                _sidata = LOADADDR (.data)
+                0x00000000080086d4                . = ALIGN (0x4)
+                0x00000000080086d4                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x54 load address 0x0000000008007a30
+.data           0x0000000020000000       0x54 load address 0x00000000080086d4
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -5775,11 +6012,11 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000020000054                . = ALIGN (0x4)
                 0x0000000020000054                _edata = .
 
-.igot.plt       0x0000000020000054        0x0 load address 0x0000000008007a84
+.igot.plt       0x0000000020000054        0x0 load address 0x0000000008008728
  .igot.plt      0x0000000020000054        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtbegin.o
                 0x0000000020000054                . = ALIGN (0x4)
 
-.bss            0x0000000020000054      0x93c load address 0x0000000008007a84
+.bss            0x0000000020000054      0x93c load address 0x0000000008008728
                 0x0000000020000054                _sbss = .
                 0x0000000020000054                __bss_start__ = _sbss
  *(.bss)
@@ -5807,7 +6044,7 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .bss.Encoder_button_time_start_memory_counter
                 0x00000000200000a5        0x1 Core/Src/main.o
                 0x00000000200000a5                Encoder_button_time_start_memory_counter
- .bss.mcCore_state.5833
+ .bss.mcCore_state.5884
                 0x00000000200000a6        0x1 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
  *fill*         0x00000000200000a7        0x1 
  .bss.deployment_ch
@@ -5847,7 +6084,7 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000020000990                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000990      0x600 load address 0x0000000008007a84
+                0x0000000020000990      0x600 load address 0x0000000008008728
                 0x0000000020000990                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x0000000020000990                PROVIDE (_end = .)
@@ -5920,42 +6157,58 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .ARM.attributes
                 0x00000000000004ef       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
  .ARM.attributes
-                0x0000000000000521       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                0x0000000000000521       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
  .ARM.attributes
-                0x0000000000000553       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                0x0000000000000553       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
  .ARM.attributes
-                0x0000000000000585       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x0000000000000585       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
  .ARM.attributes
-                0x00000000000005b7       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+                0x00000000000005b7       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
  .ARM.attributes
-                0x00000000000005e9       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+                0x00000000000005e9       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
  .ARM.attributes
-                0x000000000000061b       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+                0x000000000000061b       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
  .ARM.attributes
-                0x000000000000064d       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+                0x000000000000064d       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
  .ARM.attributes
-                0x000000000000067f       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+                0x000000000000067f       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
  .ARM.attributes
-                0x00000000000006b1       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                0x00000000000006b1       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
  .ARM.attributes
-                0x00000000000006e3       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x00000000000006e3       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
  .ARM.attributes
-                0x0000000000000715       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                0x0000000000000715       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
  .ARM.attributes
-                0x0000000000000747       0x1e c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000747       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
  .ARM.attributes
-                0x0000000000000765       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x0000000000000779       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
  .ARM.attributes
-                0x0000000000000797       0x1e c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+                0x00000000000007ab       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
  .ARM.attributes
-                0x00000000000007b5       0x1e c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00000000000007dd       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .ARM.attributes
+                0x000000000000080f       0x32 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .ARM.attributes
+                0x0000000000000841       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000873       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000008a5       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000008d7       0x1e c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000000008f5       0x32 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000000927       0x1e c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000945       0x1e c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/crtn.o
 OUTPUT(LCD_Button_LED.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc.a
 LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a
 LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a
 
-.debug_info     0x0000000000000000    0x157d0
+.debug_info     0x0000000000000000    0x16e31
  .debug_info    0x0000000000000000     0x1043 Adaptors/adaptor.o
  .debug_info    0x0000000000001043     0x2144 Core/Src/main.o
  .debug_info    0x0000000000003187     0x18f6 Core/Src/stm32f7xx_hal_msp.o
@@ -5977,20 +6230,28 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_info    0x0000000000011679     0x1974 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
  .debug_info    0x0000000000012fed      0x39e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
  .debug_info    0x000000000001338b      0x2c3 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_info    0x000000000001364e      0x1f1 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
- .debug_info    0x000000000001383f      0x117 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
- .debug_info    0x0000000000013956      0x254 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
- .debug_info    0x0000000000013baa      0x557 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .debug_info    0x0000000000014101      0x2be D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_info    0x00000000000143bf      0x2bc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_info    0x000000000001467b      0x2b8 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_info    0x0000000000014933      0x1ae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
- .debug_info    0x0000000000014ae1      0x41e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- .debug_info    0x0000000000014eff      0x2cf D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
- .debug_info    0x00000000000151ce      0x2a9 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .debug_info    0x0000000000015477      0x359 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .debug_info    0x000000000001364e       0x82 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+ .debug_info    0x00000000000136d0      0x117 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+ .debug_info    0x00000000000137e7      0x254 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+ .debug_info    0x0000000000013a3b      0x557 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+ .debug_info    0x0000000000013f92      0x2b8 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_info    0x000000000001424a      0x1ae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_info    0x00000000000143f8      0x41e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_info    0x0000000000014816      0x2cf D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_info    0x0000000000014ae5      0x355 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_info    0x0000000000014e3a      0x222 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_info    0x000000000001505c      0x301 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_info    0x000000000001535d      0x2fc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_info    0x0000000000015659      0x2fc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_info    0x0000000000015955      0x2aa D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_info    0x0000000000015bff      0x2c6 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_info    0x0000000000015ec5      0x2fc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_info    0x00000000000161c1      0x28e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_info    0x000000000001644f      0x3ea D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_info    0x0000000000016839      0x2cc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_info    0x0000000000016b05      0x32c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_abbrev   0x0000000000000000     0x3a5e
+.debug_abbrev   0x0000000000000000     0x4383
  .debug_abbrev  0x0000000000000000      0x298 Adaptors/adaptor.o
  .debug_abbrev  0x0000000000000298      0x289 Core/Src/main.o
  .debug_abbrev  0x0000000000000521      0x206 Core/Src/stm32f7xx_hal_msp.o
@@ -6012,20 +6273,28 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_abbrev  0x0000000000002604      0x23f Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
  .debug_abbrev  0x0000000000002843      0x1bf D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
  .debug_abbrev  0x0000000000002a02      0x192 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_abbrev  0x0000000000002b94       0xa9 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
- .debug_abbrev  0x0000000000002c3d       0xc1 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
- .debug_abbrev  0x0000000000002cfe      0x14f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
- .debug_abbrev  0x0000000000002e4d      0x1d2 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .debug_abbrev  0x000000000000301f      0x156 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_abbrev  0x0000000000003175      0x14b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_abbrev  0x00000000000032c0      0x13d D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_abbrev  0x00000000000033fd       0xde D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
- .debug_abbrev  0x00000000000034db      0x1a2 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- .debug_abbrev  0x000000000000367d      0x15d D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
- .debug_abbrev  0x00000000000037da      0x142 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .debug_abbrev  0x000000000000391c      0x142 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .debug_abbrev  0x0000000000002b94       0x45 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+ .debug_abbrev  0x0000000000002bd9       0xc1 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+ .debug_abbrev  0x0000000000002c9a      0x14f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+ .debug_abbrev  0x0000000000002de9      0x1d2 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+ .debug_abbrev  0x0000000000002fbb      0x13d D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_abbrev  0x00000000000030f8       0xde D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_abbrev  0x00000000000031d6      0x1a2 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_abbrev  0x0000000000003378      0x15d D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_abbrev  0x00000000000034d5      0x160 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_abbrev  0x0000000000003635      0x119 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_abbrev  0x000000000000374e      0x142 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_abbrev  0x0000000000003890      0x12a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_abbrev  0x00000000000039ba      0x12a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_abbrev  0x0000000000003ae4      0x135 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_abbrev  0x0000000000003c19      0x12a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_abbrev  0x0000000000003d43      0x12a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_abbrev  0x0000000000003e6d      0x135 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_abbrev  0x0000000000003fa2      0x154 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_abbrev  0x00000000000040f6      0x142 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_abbrev  0x0000000000004238      0x14b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_aranges  0x0000000000000000     0x1510
+.debug_aranges  0x0000000000000000     0x1690
  .debug_aranges
                 0x0000000000000000       0xb0 Adaptors/adaptor.o
  .debug_aranges
@@ -6077,23 +6346,39 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_aranges
                 0x00000000000012f0       0x70 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
  .debug_aranges
-                0x0000000000001360       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                0x0000000000001360       0x40 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
  .debug_aranges
-                0x0000000000001390       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                0x00000000000013a0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
  .debug_aranges
-                0x00000000000013c0       0x40 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                0x00000000000013d0       0x48 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
  .debug_aranges
-                0x0000000000001400       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+                0x0000000000001418       0x38 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
  .debug_aranges
-                0x0000000000001430       0x48 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+                0x0000000000001450       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
  .debug_aranges
-                0x0000000000001478       0x38 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+                0x0000000000001480       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
  .debug_aranges
-                0x00000000000014b0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+                0x00000000000014b0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
  .debug_aranges
-                0x00000000000014e0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+                0x00000000000014e0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_aranges
+                0x0000000000001510       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_aranges
+                0x0000000000001540       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_aranges
+                0x0000000000001570       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_aranges
+                0x00000000000015a0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_aranges
+                0x00000000000015d0       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_aranges
+                0x0000000000001600       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_aranges
+                0x0000000000001630       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_aranges
+                0x0000000000001660       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_ranges   0x0000000000000000     0x1350
+.debug_ranges   0x0000000000000000     0x1470
  .debug_ranges  0x0000000000000000       0xa0 Adaptors/adaptor.o
  .debug_ranges  0x00000000000000a0       0x70 Core/Src/main.o
  .debug_ranges  0x0000000000000110       0x58 Core/Src/stm32f7xx_hal_msp.o
@@ -6119,16 +6404,24 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_ranges  0x0000000000001190       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
  .debug_ranges  0x00000000000011a0       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
  .debug_ranges  0x00000000000011c0       0x60 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .debug_ranges  0x0000000000001220       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_ranges  0x0000000000001240       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_ranges  0x0000000000001260       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_ranges  0x0000000000001290       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
- .debug_ranges  0x00000000000012b0       0x38 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- .debug_ranges  0x00000000000012e8       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
- .debug_ranges  0x0000000000001310       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .debug_ranges  0x0000000000001330       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .debug_ranges  0x0000000000001220       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_ranges  0x0000000000001250       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_ranges  0x0000000000001270       0x38 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_ranges  0x00000000000012a8       0x28 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_ranges  0x00000000000012d0       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_ranges  0x00000000000012f0       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_ranges  0x0000000000001310       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_ranges  0x0000000000001330       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_ranges  0x0000000000001350       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_ranges  0x0000000000001370       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_ranges  0x0000000000001390       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_ranges  0x00000000000013b0       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_ranges  0x00000000000013d0       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_ranges  0x00000000000013f0       0x40 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_ranges  0x0000000000001430       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_ranges  0x0000000000001450       0x20 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_macro    0x0000000000000000    0x2983d
+.debug_macro    0x0000000000000000    0x29c46
  .debug_macro   0x0000000000000000      0x21f Adaptors/adaptor.o
  .debug_macro   0x000000000000021f      0xac0 Adaptors/adaptor.o
  .debug_macro   0x0000000000000cdf      0x29f Adaptors/adaptor.o
@@ -6198,31 +6491,39 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_macro   0x0000000000027dbd      0x212 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o
  .debug_macro   0x0000000000027fcf      0x211 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o
  .debug_macro   0x00000000000281e0      0x22e Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
- .debug_macro   0x000000000002840e      0x122 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000028530      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000028fde       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000028fee       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000029022       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000029032       0x16 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000029048       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_macro   0x0000000000029082       0x7e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_macro   0x0000000000029100       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_macro   0x0000000000029134       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_macro   0x0000000000029144       0xda D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
- .debug_macro   0x000000000002921e       0x7c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
- .debug_macro   0x000000000002929a       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
- .debug_macro   0x0000000000029310       0x89 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .debug_macro   0x0000000000029399       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_macro   0x0000000000029419       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_macro   0x0000000000029499       0xfb D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_macro   0x0000000000029594       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_macro   0x00000000000295ce       0x7f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
- .debug_macro   0x000000000002964d       0x72 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- .debug_macro   0x00000000000296bf       0x7f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
- .debug_macro   0x000000000002973e       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .debug_macro   0x00000000000297be       0x7f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .debug_macro   0x000000000002840e      0x136 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x0000000000028544      0xaae D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x0000000000028ff2       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x0000000000029002       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x0000000000029036       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x0000000000029046       0x16 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x000000000002905c       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_macro   0x0000000000029096       0x7e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
+ .debug_macro   0x0000000000029114       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
+ .debug_macro   0x0000000000029148       0x10 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
+ .debug_macro   0x0000000000029158       0xee D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+ .debug_macro   0x0000000000029246       0x7c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+ .debug_macro   0x00000000000292c2       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+ .debug_macro   0x0000000000029338       0x89 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+ .debug_macro   0x00000000000293c1      0x10f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_macro   0x00000000000294d0       0x3a D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_macro   0x000000000002950a       0x7f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_macro   0x0000000000029589       0x72 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_macro   0x00000000000295fb       0x7f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_macro   0x000000000002967a       0x89 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_macro   0x0000000000029703       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_macro   0x0000000000029779       0x89 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_macro   0x0000000000029802       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_macro   0x0000000000029878       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_macro   0x00000000000298ee       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_macro   0x0000000000029964       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_macro   0x00000000000299da       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_macro   0x0000000000029a50       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_macro   0x0000000000029ac6       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_macro   0x0000000000029b46       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_macro   0x0000000000029bc6       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_line     0x0000000000000000    0x181d2
+.debug_line     0x0000000000000000    0x1a6f5
  .debug_line    0x0000000000000000      0x9c0 Adaptors/adaptor.o
  .debug_line    0x00000000000009c0      0xb23 Core/Src/main.o
  .debug_line    0x00000000000014e3      0x8f4 Core/Src/stm32f7xx_hal_msp.o
@@ -6242,22 +6543,30 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_line    0x000000000000c7ea     0x3ba4 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o
  .debug_line    0x000000000001038e     0x1c12 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o
  .debug_line    0x0000000000011fa0     0x1d89 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
- .debug_line    0x0000000000013d29      0x635 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
- .debug_line    0x000000000001435e      0x4c4 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_line    0x0000000000014822      0x46b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
- .debug_line    0x0000000000014c8d      0x41c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
- .debug_line    0x00000000000150a9      0x448 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
- .debug_line    0x00000000000154f1      0x70b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .debug_line    0x0000000000015bfc      0x486 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_line    0x0000000000016082      0x475 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_line    0x00000000000164f7      0x561 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_line    0x0000000000016a58      0x421 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
- .debug_line    0x0000000000016e79      0x504 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- .debug_line    0x000000000001737d      0x50e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
- .debug_line    0x000000000001788b      0x448 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .debug_line    0x0000000000017cd3      0x4ff D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .debug_line    0x0000000000013d29      0x649 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+ .debug_line    0x0000000000014372      0x4c4 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
+ .debug_line    0x0000000000014836      0x46f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+ .debug_line    0x0000000000014ca5      0x41c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+ .debug_line    0x00000000000150c1      0x448 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+ .debug_line    0x0000000000015509      0x70b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+ .debug_line    0x0000000000015c14      0x575 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_line    0x0000000000016189      0x421 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_line    0x00000000000165aa      0x504 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_line    0x0000000000016aae      0x50e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_line    0x0000000000016fbc      0x4f6 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_line    0x00000000000174b2      0x412 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_line    0x00000000000178c4      0x47b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_line    0x0000000000017d3f      0x4ce D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_line    0x000000000001820d      0x4d1 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_line    0x00000000000186de      0x473 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_line    0x0000000000018b51      0x459 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_line    0x0000000000018faa      0x4cc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_line    0x0000000000019476      0x453 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_line    0x00000000000198c9      0x535 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_line    0x0000000000019dfe      0x460 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_line    0x000000000001a25e      0x497 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_str      0x0000000000000000   0x100503
+.debug_str      0x0000000000000000   0x10081d
  .debug_str     0x0000000000000000    0xf9d50 Adaptors/adaptor.o
                                       0xfa544 (size before relaxing)
  .debug_str     0x00000000000f9d50     0x1ac4 Core/Src/main.o
@@ -6296,34 +6605,50 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                                       0xfa826 (size before relaxing)
  .debug_str     0x00000000000fecf8      0x807 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
                                       0xfa8d4 (size before relaxing)
- .debug_str     0x00000000000ff4ff      0x5c2 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
-                                       0x421f (size before relaxing)
- .debug_str     0x00000000000ffac1      0x28f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
+ .debug_str     0x00000000000ff4ff      0x5ff D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
+                                       0x425c (size before relaxing)
+ .debug_str     0x00000000000ffafe      0x28f D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
                                        0x4059 (size before relaxing)
- .debug_str     0x00000000000ffd50       0xce D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
-                                       0x3fd1 (size before relaxing)
- .debug_str     0x00000000000ffe1e       0x2b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+ .debug_str     0x00000000000ffd8d       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+                                       0x3f0f (size before relaxing)
+ .debug_str     0x00000000000ffdbd       0x2b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
                                        0x3e64 (size before relaxing)
- .debug_str     0x00000000000ffe49       0xc7 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+ .debug_str     0x00000000000ffde8       0xc7 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
                                        0x3e9b (size before relaxing)
- .debug_str     0x00000000000fff10      0x1bc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+ .debug_str     0x00000000000ffeaf      0x1bc D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
                                        0x41c1 (size before relaxing)
- .debug_str     0x00000000001000cc       0x47 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
-                                       0x3eeb (size before relaxing)
- .debug_str     0x0000000000100113       0x42 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
-                                       0x3f24 (size before relaxing)
- .debug_str     0x0000000000100155       0xb3 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
-                                       0x41f6 (size before relaxing)
- .debug_str     0x0000000000100208       0x38 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_str     0x000000000010006b       0xb3 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+                                       0x4233 (size before relaxing)
+ .debug_str     0x000000000010011e       0x38 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
                                        0x3f70 (size before relaxing)
- .debug_str     0x0000000000100240      0x145 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_str     0x0000000000100156      0x145 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
                                        0x3f6b (size before relaxing)
- .debug_str     0x0000000000100385       0x67 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_str     0x000000000010029b       0x72 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
                                        0x3ee9 (size before relaxing)
- .debug_str     0x00000000001003ec       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
-                                       0x3efc (size before relaxing)
- .debug_str     0x0000000000100462       0xa1 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
-                                       0x4053 (size before relaxing)
+ .debug_str     0x000000000010030d       0x7b D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+                                       0x4065 (size before relaxing)
+ .debug_str     0x0000000000100388       0x58 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+                                       0x3eb1 (size before relaxing)
+ .debug_str     0x00000000001003e0       0x63 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+                                       0x4044 (size before relaxing)
+ .debug_str     0x0000000000100443       0x86 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+                                       0x3ed7 (size before relaxing)
+ .debug_str     0x00000000001004c9       0x64 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+                                       0x3ee0 (size before relaxing)
+ .debug_str     0x000000000010052d       0x5e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+                                       0x3ed2 (size before relaxing)
+ .debug_str     0x000000000010058b       0x5e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+                                       0x3ec1 (size before relaxing)
+ .debug_str     0x00000000001005e9       0x58 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+                                       0x3ece (size before relaxing)
+ .debug_str     0x0000000000100641       0x5e D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+                                       0x3ec9 (size before relaxing)
+ .debug_str     0x000000000010069f       0x82 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+                                       0x3ef7 (size before relaxing)
+ .debug_str     0x0000000000100721       0x76 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+                                       0x3ef5 (size before relaxing)
+ .debug_str     0x0000000000100797       0x86 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+                                       0x3f21 (size before relaxing)
 
 .comment        0x0000000000000000       0x53
  .comment       0x0000000000000000       0x53 Adaptors/adaptor.o
@@ -6351,16 +6676,24 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
  .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
+ .comment       0x0000000000000053       0x54 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
 
-.debug_frame    0x0000000000000000     0x5540
+.debug_frame    0x0000000000000000     0x5940
  .debug_frame   0x0000000000000000      0x2a0 Adaptors/adaptor.o
  .debug_frame   0x00000000000002a0      0x1d4 Core/Src/main.o
  .debug_frame   0x0000000000000474      0x17c Core/Src/stm32f7xx_hal_msp.o
@@ -6381,20 +6714,28 @@ LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_frame   0x0000000000004108      0xa08 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
  .debug_frame   0x0000000000004b10      0x140 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore.o)
  .debug_frame   0x0000000000004c50       0xc0 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(persistent_vars.o)
- .debug_frame   0x0000000000004d10       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
- .debug_frame   0x0000000000004d44       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
- .debug_frame   0x0000000000004d78       0x7c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
- .debug_frame   0x0000000000004df4      0x1ac D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
- .debug_frame   0x0000000000004fa0       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
- .debug_frame   0x0000000000005020       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
- .debug_frame   0x00000000000050a0       0xc4 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
- .debug_frame   0x0000000000005164       0x70 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
- .debug_frame   0x00000000000051d4       0xec D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
- .debug_frame   0x00000000000052c0       0xac D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
- .debug_frame   0x000000000000536c       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
- .debug_frame   0x00000000000053ec       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_modbus_slave.o)
- .debug_frame   0x000000000000546c       0x2c c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000005498       0x28 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000000000054c0       0x20 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x00000000000054e0       0x2c c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x000000000000550c       0x34 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000004d10       0x30 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(test_circuits.o)
+ .debug_frame   0x0000000000004d40       0x34 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(uniqueid.o)
+ .debug_frame   0x0000000000004d74       0x7c D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(comm_service.o)
+ .debug_frame   0x0000000000004df0      0x1ac D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(modbus_slave.o)
+ .debug_frame   0x0000000000004f9c       0xc4 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(Parser.o)
+ .debug_frame   0x0000000000005060       0x70 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(deployment.o)
+ .debug_frame   0x00000000000050d0       0xec D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fcb.o)
+ .debug_frame   0x00000000000051bc       0xac D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(mcCore_Watch.o)
+ .debug_frame   0x0000000000005268       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_wmhr.o)
+ .debug_frame   0x00000000000052e8       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_number.o)
+ .debug_frame   0x0000000000005368       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_rmhr.o)
+ .debug_frame   0x00000000000053e8       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_and.o)
+ .debug_frame   0x0000000000005468       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nand.o)
+ .debug_frame   0x00000000000054e8       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_nor.o)
+ .debug_frame   0x0000000000005568       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_not.o)
+ .debug_frame   0x00000000000055e8       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_or.o)
+ .debug_frame   0x0000000000005668       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_xor.o)
+ .debug_frame   0x00000000000056e8       0x84 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_cycle.o)
+ .debug_frame   0x000000000000576c       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_inputpin.o)
+ .debug_frame   0x00000000000057ec       0x80 D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7\libMCRuntime_V1.a(fb_outputpin.o)
+ .debug_frame   0x000000000000586c       0x2c c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000005898       0x28 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000000000058c0       0x20 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000000058e0       0x2c c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000000000000590c       0x34 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
