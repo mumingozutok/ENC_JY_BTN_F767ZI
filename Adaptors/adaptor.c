@@ -9,10 +9,12 @@
 
 extern TIM_HandleTypeDef htim6;
 extern UART_HandleTypeDef huart7;
+extern ADC_HandleTypeDef hadc1;
 
 typedef struct S_Adaptation{
 	TIM_HandleTypeDef* comm_htim;
 	UART_HandleTypeDef* comm_huart;
+
 } runtime_adaptor;
 
 typedef struct S_Digital_Channel{
@@ -20,8 +22,26 @@ typedef struct S_Digital_Channel{
 	uint32_t pin;
 } Digital_Channel;
 
-static Digital_Channel inputChannel[3];
+typedef struct S_ADC_Info{
+	ADC_HandleTypeDef* adc;
+	uint8_t ready_flag;
+	uint16_t data[16];
+	uint8_t ch_count;
+} ADC_Info;
+
+typedef struct S_Analog_Input_Channel{
+	uint16_t data;
+	ADC_Info* ai; //hold the information of the adc peripheral associated to this channel
+} Analog_Input_Channel;
+
+
+static ADC_Info adc_info = {.adc = &hadc1, .ready_flag = 1, .ch_count = 2};
+
+static Digital_Channel inputChannel[4];
 static Digital_Channel outputChannel[3];
+
+#define ANALOG_INPUT_CH_COUNT 2
+static Analog_Input_Channel analog_input_channel[ANALOG_INPUT_CH_COUNT];
 
 void initiate_input_channels(){
 	inputChannel[0].port = GPIOF;
@@ -32,6 +52,9 @@ void initiate_input_channels(){
 
 	inputChannel[2].port = GPIOF;
 	inputChannel[2].pin = GPIO_PIN_10; //EXT10
+
+	inputChannel[3].port = GPIOA; //Joystick button
+	inputChannel[3].pin = GPIO_PIN_6; //EXT10
 }
 
 void initiate_output_channels(){
@@ -45,7 +68,17 @@ void initiate_output_channels(){
 	outputChannel[2].pin = GPIO_PIN_13;
 }
 
-runtime_adaptor ra = {.comm_htim = &htim6, .comm_huart = &huart7};
+void initate_analog_channels(){
+	analog_input_channel[0].ai = &adc_info;
+	analog_input_channel[0].data = 0;
+
+	analog_input_channel[1].ai = &adc_info;
+	analog_input_channel[1].data = 0;
+
+}
+
+runtime_adaptor ra = {.comm_htim = &htim6,
+						.comm_huart = &huart7};
 
 uint8_t uart_rx_data;
 
@@ -60,6 +93,40 @@ uint8_t  hal_gpio_read_pin(uint32_t chNum){
 	return HAL_GPIO_ReadPin(inputChannel[chNum].port, inputChannel[chNum].pin);
 
 }
+
+//------------------ADC readings with DMA---------------------------------------
+uint32_t counter_hal_dma = 0, counter_dma_callback = 0;
+
+uint32_t hal_read_analog_ch(uint32_t chNum){
+	Analog_Input_Channel* ch = &analog_input_channel[chNum];
+	ADC_Info* ai = ch->ai;
+	if(ai->ready_flag == 1){ //check for the conv finish
+		//Start DMA controlled ADC single convertion
+		//this adc is working on two channels IN3 and IN10
+		//so there will be two channel value after one conversion
+		ai->ready_flag = 0; //disable the flag to notify there is an ongoing process
+		HAL_ADC_Start_DMA(ai->adc, (uint32_t*) &ai->data, ai->ch_count);
+		counter_hal_dma++;
+	}
+
+	return analog_input_channel[chNum].data;
+}
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+	Analog_Input_Channel* ch;
+	ADC_Info* ai;
+	for(uint8_t i=0;i<ANALOG_INPUT_CH_COUNT;i++){
+		ch = &analog_input_channel[i];
+		ai = ch->ai;
+		if(hadc == ai->adc){
+			ch->data = ai->data[i];
+			ai->ready_flag = 1;
+			counter_dma_callback++;
+		}
+	}
+}
+//-------------------------------------------------------------------------------
 
 //Please write down "get system tick" function in your hardware
 uint32_t hal_get_tick(){
@@ -207,5 +274,6 @@ void initiate_runtime()
 	  init_comm_timing_service();
 	  initiate_input_channels();
 	  initiate_output_channels();
+	  initate_analog_channels();
 }
 
