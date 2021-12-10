@@ -8,6 +8,7 @@
 #include "stm32f7xx_hal.h"
 
 extern TIM_HandleTypeDef htim6;
+extern TIM_HandleTypeDef htim1;
 extern UART_HandleTypeDef huart7;
 extern ADC_HandleTypeDef hadc1;
 
@@ -208,8 +209,6 @@ void get_uniqueid(uint8_t* id, uint16_t len){
 }
 
 //---------------------Flash functions---------------------------------------
-
-
 #define ADDR_FLASH_SECTOR_23     ((uint32_t)0x081E0000)
 #define FLASH_MEMORY_SIZE (128*1024)
 
@@ -267,6 +266,11 @@ uint8_t erase_flash(uint32_t start_addr)
 	return ret;
 }
 
+//---------------------Encoder Function---------------------------------------------------
+int8_t hal_get_encoder_value()
+{
+	return (htim1.Instance->CNT>>2);
+}
 
 void initiate_runtime()
 {

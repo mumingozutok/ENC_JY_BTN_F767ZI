@@ -56,7 +56,7 @@ main-build: LCD_Button_LED.elf secondary-outputs
 
 # Tool invocations
 LCD_Button_LED.elf: $(OBJS) $(USER_OBJS) D:\work\techsafe\MCRuntime\dev2\ENC_JY_BTN_F767ZI\STM32F767ZITX_FLASH.ld
-	arm-none-eabi-gcc -o "LCD_Button_LED.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\work\techsafe\MCRuntime\dev2\ENC_JY_BTN_F767ZI\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Button_LED.map" -Wl,--gc-sections -static -L"D:\work\techsafe\MCRuntime\dev2\mcrt\Debug_STM32_M7" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "LCD_Button_LED.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\work\techsafe\MCRuntime\dev2\ENC_JY_BTN_F767ZI\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Button_LED.map" -Wl,--gc-sections -static -L"D:\work\techsafe\MCRuntime\dev_mcrt\mcrt\Debug_STM32_M7" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
