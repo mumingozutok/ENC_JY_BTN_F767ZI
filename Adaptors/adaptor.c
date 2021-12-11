@@ -5,6 +5,7 @@
  *      Author: mg
  */
 
+#include "ST7735.h"
 #include "stm32f7xx_hal.h"
 
 extern TIM_HandleTypeDef htim6;
@@ -267,9 +268,35 @@ uint8_t erase_flash(uint32_t start_addr)
 }
 
 //---------------------Encoder Function---------------------------------------------------
-int8_t hal_get_encoder_value()
+int8_t hal_get_encoder_value(uint8_t ch)
 {
-	return (htim1.Instance->CNT>>2);
+	if(ch==0){
+		return (htim1.Instance->CNT>>2);
+	}
+	else{
+		return 0;
+	}
+}
+
+//---------------------Display FUnctions---------------------------------------------------
+//Display Functions
+void  Display_String(int32_t startX, int32_t startY,
+												int32_t width, int32_t height,
+													int32_t attr, char* str, uint16_t len){
+	ST7735_FillRectangle(startX, startY, width, height, BLACK);
+	ST7735_WriteString(startX, startY, str, Font_7x10, WHITE, BLACK);
+	return 0;
+}
+
+void  Display_Number(int32_t startX, int32_t startY,
+											int32_t width, int32_t height,
+												int32_t attr, int32_t val){
+	char str[16];
+	itoa(val, str, 10);
+
+	ST7735_FillRectangle(startX, startY, width, height, BLACK);
+	ST7735_WriteString(startX, startY, str, Font_7x10, WHITE, BLACK);
+	return 0;
 }
 
 void initiate_runtime()

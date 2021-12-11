@@ -148,9 +148,10 @@ int main(void)
 
   initiate_runtime();
 
-#ifdef ZAFER
+
   ST7735_Init(0);
   fillScreen(BLACK);
+#ifdef ZAFER
   //
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&value_adc, 2);
   // LCD start grafik
