@@ -8,6 +8,9 @@
 #include "ST7735.h"
 #include "stm32f7xx_hal.h"
 
+#define OUTPUT_CHANNEL_COUNT 3
+#define INPUT_CHANNEL_COUNT 5
+
 extern TIM_HandleTypeDef htim6;
 extern TIM_HandleTypeDef htim1;
 extern UART_HandleTypeDef huart7;
@@ -39,8 +42,8 @@ typedef struct S_Analog_Input_Channel{
 
 static ADC_Info adc_info = {.adc = &hadc1, .ready_flag = 1, .ch_count = 2};
 
-static Digital_Channel inputChannel[4];
-static Digital_Channel outputChannel[3];
+static Digital_Channel inputChannel[5];
+static Digital_Channel outputChannel[OUTPUT_CHANNEL_COUNT];
 
 #define ANALOG_INPUT_CH_COUNT 2
 static Analog_Input_Channel analog_input_channel[ANALOG_INPUT_CH_COUNT];
@@ -57,6 +60,9 @@ void initiate_input_channels(){
 
 	inputChannel[3].port = GPIOA; //Joystick button
 	inputChannel[3].pin = GPIO_PIN_6; //EXT10
+
+	inputChannel[4].port = GPIOG; //Encoder button
+	inputChannel[4].pin = GPIO_PIN_7;
 }
 
 void initiate_output_channels(){
@@ -94,6 +100,12 @@ uint8_t  hal_gpio_read_pin(uint32_t chNum){
 	//return values >= 2, depicts error
 	return HAL_GPIO_ReadPin(inputChannel[chNum].port, inputChannel[chNum].pin);
 
+}
+
+void reset_all_output_channels(){
+	for(uint8_t i = 0; i<OUTPUT_CHANNEL_COUNT; i++){
+		hal_gpio_write_pin(i, 0);
+	}
 }
 
 //------------------ADC readings with DMA---------------------------------------
@@ -211,11 +223,38 @@ void get_uniqueid(uint8_t* id, uint16_t len){
 
 //---------------------Flash functions---------------------------------------
 #define ADDR_FLASH_SECTOR_23     ((uint32_t)0x081E0000)
+#define ADDR_FLASH_SECTOR_22     ((uint32_t)0x081C0000)
+#define ADDR_FLASH_SECTOR_21     ((uint32_t)0x081A0000)
+#define ADDR_FLASH_SECTOR_20     ((uint32_t)0x08180000)
+
 #define FLASH_MEMORY_SIZE (128*1024)
 
-void get_flash_memory_info(uint32_t* start_addr, uint32_t* size){
-	*start_addr = ADDR_FLASH_SECTOR_23;
-	*size = FLASH_MEMORY_SIZE;
+//mem_id: 0 -> Function Blocks
+//mem_id: 1 -> Static Parameters
+//mem_id: 2 -> Dynamic Parameters
+//mem_id: 3 -> Circular FIFO (Data Storage)
+void get_flash_memory_info(uint32_t* start_addr, uint32_t* size, uint8_t mem_id){
+	switch(mem_id){
+	case 0:
+		*start_addr = ADDR_FLASH_SECTOR_23;
+		*size = FLASH_MEMORY_SIZE;
+		break;
+	case 1:
+		*start_addr = ADDR_FLASH_SECTOR_22;
+		*size = FLASH_MEMORY_SIZE;
+		break;
+	case 2:
+		*start_addr = ADDR_FLASH_SECTOR_21;
+		*size = FLASH_MEMORY_SIZE;
+		break;
+	case 3:
+		*start_addr = ADDR_FLASH_SECTOR_20;
+		*size = FLASH_MEMORY_SIZE;
+		break;
+	default:
+		*start_addr = 0;
+		*size = 0;
+	}
 }
 
 uint8_t write_to_flash(uint8_t* p, uint32_t start_addr, uint16_t size)
@@ -238,7 +277,7 @@ uint8_t write_to_flash(uint8_t* p, uint32_t start_addr, uint16_t size)
 	HAL_FLASH_Lock();
 }
 
-uint8_t erase_flash(uint32_t start_addr)
+uint8_t erase_flash(uint32_t start_addr, uint8_t mem_id)
 {
 	uint8_t ret = 0;
 
@@ -255,7 +294,21 @@ uint8_t erase_flash(uint32_t start_addr)
 	/* Fill EraseInit structure*/
 	EraseInitStruct.TypeErase = FLASH_TYPEERASE_SECTORS         ;
 	EraseInitStruct.NbSectors = 1;
-	EraseInitStruct.Sector = FLASH_SECTOR_23;
+	switch (mem_id){
+		case 0:
+			EraseInitStruct.Sector = FLASH_SECTOR_23;
+			break;
+		case 1:
+			EraseInitStruct.Sector = FLASH_SECTOR_22;
+			break;
+		case 2:
+			EraseInitStruct.Sector = FLASH_SECTOR_21;
+			break;
+		case 3:
+			EraseInitStruct.Sector = FLASH_SECTOR_20;
+			break;
+	}
+
 
 	if (HAL_FLASHEx_Erase(&EraseInitStruct, &SectorError) != HAL_OK)
 	{
@@ -297,6 +350,18 @@ void  Display_Number(int32_t startX, int32_t startY,
 	ST7735_FillRectangle(startX, startY, width, height, BLACK);
 	ST7735_WriteString(startX, startY, str, Font_7x10, WHITE, BLACK);
 	return 0;
+}
+
+void Display_Clear()
+{
+	ST7735_Init(0);
+	fillScreen(BLACK);
+}
+
+
+//Watch function
+void hal_xfer_watch_data(uint8_t len, uint8_t* watch_data){
+	hal_modbus_uart_tx(watch_data, len);
 }
 
 void initiate_runtime()

@@ -82,8 +82,6 @@ void Error_Handler(void);
 #define ENCODER_B_Pin GPIO_PIN_8
 #define ENCODER_B_GPIO_Port GPIOG
 #define ENCODER_B_EXTI_IRQn EXTI9_5_IRQn
-#define LCD_Key1_Pin GPIO_PIN_7
-#define LCD_Key1_GPIO_Port GPIOC
 #define LCD_Key2_Pin GPIO_PIN_10
 #define LCD_Key2_GPIO_Port GPIOC
 #define LCD_Key3_Pin GPIO_PIN_11
@@ -103,5 +101,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

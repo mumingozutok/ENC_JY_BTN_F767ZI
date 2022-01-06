@@ -1,6 +1,11 @@
 #ifndef __MCRuntime_H__
 #define __MCRuntime_H__
 
+typedef struct{
+	uint32_t param_index;
+	int32_t param_value;
+} watch_data_t;
+
 //Core Functions
 void mcCore_SM();
 
